@@ -1,0 +1,27 @@
+{
+  "name": "ct-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/pg": "^8.15.4",
+    "@types/socket.io": "^3.0.1",
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.19.4"
+  }
+}
